@@ -10,7 +10,7 @@ npm i
 
 ```sh
 # start dev server
-npm run serve
+npm run start
 ```
 ## 全局 pm2: 持久化
 
@@ -22,7 +22,7 @@ pm2 list
 #进入项目根目录 cd /**/ttswap_data
 pm2 delete ttswap_data
 
-pm2 start "npm run serve" --name ttswap_data
+pm2 start "npm run start" --name ttswap_data
 
 pm2 stop ttswap_data
 
